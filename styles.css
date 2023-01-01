@@ -1,0 +1,118 @@
+body {
+  font-family: 'Seymour One', sans-serif;
+  background-color: black;
+  color: white;
+  word-spacing: 3px;
+}
+
+.top-div {
+  margin: auto;
+
+  background: rgb(22, 20, 20);
+  background: linear-gradient(
+    27deg,
+    rgba(22, 20, 20, 0.5970763305322129) 0%,
+    rgba(25, 20, 20, 1) 0%,
+    rgba(74, 25, 18, 1) 45%,
+    rgba(238, 42, 12, 1) 82%
+  );
+  width: 75%;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#title {
+  display: block;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 0;
+  padding: 0.5rem;
+}
+
+#ramiz-img {
+  width: 30%;
+  height: 30%;
+  border-radius: 1rem;
+}
+
+#ramiz-img:hover {
+  transform: rotate(360deg);
+  transition: ease-in-out 1s;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 2rem; */
+  width: 85%;
+  margin: auto;
+  /* background-color: #e5e7eb; */
+  border-radius: 1rem;
+}
+
+.about-me p {
+  font-size: 2rem;
+  width: 60%;
+  /* color: rgb(22, 20, 20); */
+}
+
+#project-heading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.projects-container {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-title {
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+}
+
+.project-img {
+  width: 20em;
+  height: 20em;
+}
+
+#admin-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.project {
+  background-color: #200;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+}
+
+.project:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.2s;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 15rem; */
+  outline: none;
+}
+
+footer img:hover {
+  transform: rotate(360deg);
+  transition: ease-in-out 0.4s;
+}
+
+footer {
+  text-align: center;
+}
